@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Keşfet" />
+    <item
+        android:id="@+id/nav_Categorys"
+        android:icon="@drawable/ic_searchsvg"
+        android:title="Kategoriler" />
+    <item
+        android:id="@+id/nav_my_favorites"
+        android:icon="@drawable/ic_blackheart"
+        android:title="Favorilerim" />
+    <item
+        android:id="@+id/nav_My_Cart"
+        android:icon="@drawable/ic_shopping_cart"
+        android:title="Sepetim" />
+    <item
+        android:id="@+id/nav_my_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profilim" />
+</menu>

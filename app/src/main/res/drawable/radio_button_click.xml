@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/radio_button_circle_noneempty_indise"
+        android:gravity="center"/>
+    <item android:drawable="@drawable/radio_button_circle_emty_inside"/>
+
+
+</layer-list>

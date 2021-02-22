@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+
+        android:layout_width="370dp"
+        android:layout_height="104dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="22dp"
+        android:orientation="horizontal"
+        android:background="@drawable/linearcategorybackgrount"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="26dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_categoryimage"
+            >
+        </ImageView>
+        <TextView
+            android:id="@+id/categoryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kozmetik &amp; Kişisel Bakım"
+            android:textSize="18dp"
+            android:textColor="#52565C"
+            android:fontFamily="@font/titilliumweb_semibold"
+            android:layout_gravity="center"
+            android:layout_marginLeft="28dp"
+            > </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="26dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_sagtusu"
+            >
+        </ImageView>
+    </LinearLayout>
+</LinearLayout>

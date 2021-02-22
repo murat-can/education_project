@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TextviewGosterilen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UrunDetayActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:id="@+id/imageDetay"
+    android:layout_height="100dp">
+</ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="644dp"
+        android:background="@drawable/ic_layout_background"
+        >
+        <TextView
+            android:id="@+id/textViewgosterilen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="26dp"
+            android:textSize="16dp"
+            android:textColor="#2F80ED"
+            android:fontFamily="@font/titilliumweb_semibold"
+           />
+
+        <TextView
+            android:id="@+id/urunadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewgosterilen"
+            android:layout_alignLeft="@+id/textViewgosterilen"
+
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/titilliumweb_semibold"
+
+            android:textColor="#52565C"
+
+            android:textSize="20dp" />
+
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="#EAF1F7 "
+            android:layout_below="@+id/urunadi"
+            />
+
+        <LinearLayout
+
+            android:id="@+id/line1Urunaciklama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/view5"
+            >
+            <TextView
+                android:id="@+id/urunaciklamasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/titilliumweb_regular"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="12dp"
+                android:textSize="16dp"
+                android:text="Ürün Açıklaması"
+                > </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/urunadi"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="225dp"
+                android:background="@drawable/ic_sagtusu"
+
+                >
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="60dp"
+            android:background="#EAF1F7 "
+            android:layout_below="@+id/urunadi"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/titilliumweb_semibold"
+            android:textSize="22dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FDBF00"
+            android:id="@+id/urunfiyati"
+            android:layout_below="@+id/view4"
+            >
+
+        </TextView>
+
+    </RelativeLayout>
+
+</LinearLayout>

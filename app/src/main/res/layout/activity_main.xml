@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="26dp"
+        >
+
+        <ImageView
+            android:layout_width="11.25dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_sol_geri_tusbirazbuyuk">
+
+        </ImageView>
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/mycompanyimage"
+        android:layout_gravity="center"
+
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hesabına Giriş Yap"
+        android:layout_marginTop="35dp"
+        android:textColor="#52565C"
+        android:fontFamily="@font/titilliumweb_semibold"
+        android:textSize="24dp"
+        >
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:orientation="vertical">
+<EditText
+    android:layout_width="318dp"
+    android:layout_height="60dp"
+    android:textSize="16dp"
+    android:layout_gravity="center"
+    android:textColor="#52565C"
+    android:gravity="center"
+
+
+    android:hint="demo@hizligeliyo.com"
+    android:textColorHint="#52565C"
+    android:background="@drawable/ic_editext_background"
+    >
+</EditText>
+    <EditText
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/closedEdittext"
+        android:textSize="24dp"
+        android:fontFamily="@font/titilliumweb_semibold"
+        android:textColor="#52565C"
+        android:hint="* * * * * *"
+        android:textColorHint="#52565C"
+        android:background="@drawable/ic_editext_background"
+        >
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Şifremi unuttum"
+        android:layout_marginTop="26dp"
+        android:textColor="#52565C"
+        android:fontFamily="@font/titilliumweb_regular"
+        android:textSize="16dp"
+        >
+    </TextView>
+
+        <Button
+            android:id="@+id/buttonclick"
+            android:layout_width="251dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/ic_button_background"
+            android:backgroundTint="#2D9CDB"
+            android:text="Giriş Yap"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:fontFamily="@font/titilliumweb_semibold"
+
+            > </Button>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Hesabın yok mu?"
+                android:layout_marginTop="26dp"
+                android:textColor="#52565C"
+                android:fontFamily="@font/titilliumweb_regular"
+                android:textSize="16dp"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/kaydol"
+                android:text="Kaydol"
+                android:layout_marginTop="26dp"
+                android:textColor="@color/blue"
+                android:fontFamily="@font/titilliumweb_regular"
+                android:textSize="16dp"
+                >
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
