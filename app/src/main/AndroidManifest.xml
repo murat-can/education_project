@@ -11,8 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginandProducList">
-        <activity android:name=".category.CategoryMain"></activity>
-        <activity android:name=".UrunDetayActivity" />
+        <activity android:name=".ProductDetailActivity" />
         <activity android:name=".MainActivity2" />
         <activity android:name=".MainActivity">
             <intent-filter>

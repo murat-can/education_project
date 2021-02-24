@@ -27,7 +27,7 @@
             android:layout_height="118dp"
             android:layout_marginTop="5dp"
             android:padding="5dp"
-            android:id="@+id/image1"
+            android:id="@+id/main_image_onclck"
 
 
             >

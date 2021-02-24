@@ -2,11 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/TextviewGosterilen"
+    android:id="@+id/TextviewShowLinear"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".UrunDetayActivity">
+    tools:context=".ProductDetailActivity">
 
 <ImageView
     android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         android:background="@drawable/ic_layout_background"
         >
         <TextView
-            android:id="@+id/textViewgosterilen"
+            android:id="@+id/CategoryText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="32dp"
@@ -34,8 +34,8 @@
             android:id="@+id/urunadi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textViewgosterilen"
-            android:layout_alignLeft="@+id/textViewgosterilen"
+            android:layout_below="@+id/CategoryText"
+            android:layout_alignLeft="@+id/CategoryText"
 
             android:layout_marginRight="24dp"
             android:layout_marginTop="19dp"

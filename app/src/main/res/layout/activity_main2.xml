@@ -1,156 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:orientation="vertical"
+
     tools:context=".MainActivity2">
-
-   <LinearLayout
+   <FrameLayout
+       android:id="@+id/fragment_hold"
        android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:layout_marginLeft="22dp"
-       android:layout_marginTop="22dp"
-       android:layout_marginRight="22dp"
-       android:orientation="vertical">
+       android:layout_height="match_parent"
+       android:layout_above="@+id/bottom_navigation_bar"
+       >
 
-      <AutoCompleteTextView
-          android:id="@+id/autoCompleteTextView"
-          android:layout_width="match_parent"
-          android:layout_height="55dp"
-          android:background="@drawable/ic_autocomplate_back_ground"
-          android:completionThreshold="1"
-          android:drawableLeft="@drawable/ic_arama"
-          android:drawablePadding="13dp"
-          android:dropDownVerticalOffset="9dp"
-          android:fontFamily="@font/titilliumweb_semibold"
-          android:hint="Kategori veya ürün ara"
-          android:paddingLeft="17dp"
-          android:textColor="#AEB5BD"
-          android:textSize="16dp">
-
-      </AutoCompleteTextView>
-
-      <View
-          android:layout_width="match_parent"
-          android:layout_height="3dp"
-          android:layout_gravity="center"
-          android:background="@drawable/ic_view_back_ground"> </View>
-
-      <RelativeLayout
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-
-          android:layout_gravity="center"
-          android:layout_marginTop="24dp"
-          android:background="@drawable/ic_siralaandfitrele">
-
-         <LinearLayout
-             android:id="@+id/linearclick1"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_centerVertical="true"
-             android:layout_gravity="center"
-             android:layout_marginLeft="59dp"
-             android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@drawable/ic_sirala"
+   </FrameLayout>
 
 
-                > </ImageView>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-                android:fontFamily="@font/titilliumweb_semibold"
-                android:text="Sırala"
-                android:textSize="16dp">
-
-            </TextView>
-         </LinearLayout>
-
-         <View
-             android:layout_width="40dp"
-             android:layout_height="33dp"
-             android:layout_centerInParent="true"
-             android:layout_marginTop="12dp"
-             android:layout_marginBottom="12dp"
-
-             android:background="@drawable/ic_view"> </View>
-
-         <LinearLayout
-             android:id="@+id/categoryCick"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_alignParentRight="true"
-             android:layout_centerVertical="true"
-             android:layout_gravity="center"
-             android:layout_marginRight="59dp"
-             android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@drawable/ic_filtre"
-
-
-                > </ImageView>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-
-                android:fontFamily="@font/titilliumweb_semibold"
-                android:text="Filtre"
-                android:textSize="16dp">
-
-            </TextView>
-
-         </LinearLayout>
-
-      </RelativeLayout>
-
-
-   </LinearLayout>
-
-
-   <androidx.recyclerview.widget.RecyclerView
-       android:id="@+id/recyclerView"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-
-       android:layout_marginLeft="21dp"
-
-       android:layout_marginTop="30dp"
-
-       android:layout_marginRight="14dp">
-
-   </androidx.recyclerview.widget.RecyclerView>
 
 
    <com.google.android.material.bottomnavigation.BottomNavigationView
        android:id="@+id/bottom_navigation_bar"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:layout_marginTop="210dp"
+
        app:itemBackground="@color/white"
        app:itemIconTint="#52565C"
        app:itemTextColor="#767676"
+       android:layout_alignParentBottom="true"
        app:labelVisibilityMode="labeled"
-
        app:menu="@menu/bottom_bar_menu">
-
    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
-</LinearLayout>
+</RelativeLayout>

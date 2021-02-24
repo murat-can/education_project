@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/bottomSheetContainer"
     android:background="@drawable/ic_bottom_linear_radius"
-
     android:orientation="vertical">
 
 
@@ -35,8 +35,6 @@
             android:textColor="#52565C"
             android:paddingLeft="14dp"
             android:fontFamily="@font/titilliumweb_semibold"
-
-
 
             >
         </RadioButton>

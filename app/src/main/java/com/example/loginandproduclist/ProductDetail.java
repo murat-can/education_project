@@ -4,7 +4,7 @@ package com.example.loginandproduclist;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class UrunlerinDetaylariniGosterici {
+public class ProductDetail {
 
     @SerializedName("id")
     @Expose

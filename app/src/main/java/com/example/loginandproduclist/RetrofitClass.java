@@ -30,7 +30,7 @@ public class RetrofitClass {
         return retrofit;
     }
 
-    public static ApiService getLogin() {
+    public static ApiService GetService() {
         return loginRetrofitService().create(ApiService.class);
     }
 }

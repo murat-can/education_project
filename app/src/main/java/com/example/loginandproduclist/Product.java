@@ -1,13 +1,12 @@
 
 package com.example.loginandproduclist;
 
-import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class UrunleriGosterenSayfa {
+public class Product {
 
     @SerializedName("id")
-    public  Integer id;
+    public Integer id;
 
     @SerializedName("title")
     public String title;

@@ -3,7 +3,7 @@ package com.example.loginandproduclist;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-public class LocalDataManager {
+public class LocalDataManager {//Shared prefences sınıfı oluşturuldu.
 
     public void setSharedPreference(Context context, String key, String value) {
         SharedPreferences sharedPref = context.getSharedPreferences(context.getPackageName(), Context.MODE_PRIVATE);

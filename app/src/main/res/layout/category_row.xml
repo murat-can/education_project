@@ -13,13 +13,15 @@
         android:orientation="horizontal"
         android:background="@drawable/linearcategorybackgrount"
         >
+
         <ImageView
+            android:id="@+id/category_image"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginLeft="26dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_categoryimage"
-            >
+
+            android:background="@drawable/ic_categoryimage">
         </ImageView>
         <TextView
             android:id="@+id/categoryText"
